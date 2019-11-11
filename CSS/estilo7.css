@@ -3,17 +3,20 @@
 	color: #ffffff;
 	padding-top: 100px;
 }
+#left {
+	padding-left: 11%;
+}
 #say h1{
 	font-size: 45px;
 	font-weight: 100;
 	padding-bottom: 15px;
-	margin-left: 8%;
+	margin-left: 5%;
 }
 #say h1 b{
 	font-weight: 500;
 }
 #dont{
-	margin-left: 8%;
+	margin-left:5%;
 }
 #contact ul li{
 	list-style: none;
@@ -27,6 +30,24 @@
 #mitad {
 	float: left;
 	padding-top: 50px;
+}
+.cel {
+	padding-right: 15px;
+}
+.plus {
+	padding-right: 15px;
+}
+.twitter {
+	padding-right: 15px;
+}
+.mail1 {
+	padding-right: 15px;
+}
+.face {
+	padding-right: 15px;
+}
+.pinterest {
+	padding-right: 15px;
 }
 /*--------------------------------------------------------*/
 .name {
@@ -50,4 +71,10 @@
 	height: 210px;
 	padding-left: 20px;
 	padding-bottom: 160px;
+}
+/*--------------------------------------------------------------*/
+#copy {
+	padding-top: 130px;
+	padding-bottom: 30px;
+	text-align: center;
 }
