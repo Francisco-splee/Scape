@@ -1,9 +1,4 @@
 /*primera parte*/
-body{
-	background-size: 100% 100%;
-	background-attachment: fixed;
-
-}
 #header-top{
 	padding-top: 30px;
 	padding-bottom: 40px;
@@ -73,6 +68,7 @@ padding-bottom: 10px;
 }
 /*Tercera parte*/
 #Apartado-3{
+	padding: 100px 0 60px;
 	width: auto;
 	height: 590px;
 	background: #ffffff;
@@ -83,13 +79,23 @@ padding-bottom: 10px;
 	padding-left: 270px;
 	width: 872px;
 	height: 390px;
+
 }
 
 .uno{
-	margin-top: 0px;
-	margin-left: 0px;
 	float: left;
-	
+}
+.uno h3{
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+	padding-left: 101px;
+}
+
+.uno p{
+	margin-left: 95px;
+	color: #777777
 }
 
 .dos{
@@ -97,16 +103,52 @@ padding-bottom: 10px;
 	margin-left: 115px
 }
 
+.dos h3{
+	padding-left: 101px;
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+}
+
+.dos p{
+	margin-left: 95px;
+}
+
 .tres{
 	margin-top: 0px;
 	margin-left: 0px;
 	float: left;
-	
+}
+
+.tres h3{
+	padding-left: 101px;
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+}
+
+.tres p{
+	margin-left: 95px;
+	color: #777777;
 }
 
 .cuatro{
 	margin-top: 0px;
 	margin-left: 115px
+}
+
+.cuatro h3{
+	padding-left: 101px;
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+}
+
+.cuatro p{
+	margin-left: 95px;
 }
 
 .cinco{
@@ -115,7 +157,32 @@ padding-bottom: 10px;
 	float: left;
 }
 
+.cinco h3{
+	padding-left: 101px;
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+}
+
+.cinco p{
+	margin-left: 95px;
+	color: #777777
+}
+
 .seis{
 	margin-top: 0px;
 	margin-left: 115px
+}
+
+.seis h3{
+	padding-left: 101px;
+	font-size: 24px;
+	color: #222222;
+	font-family: 'brandon_grotesquemedium';
+	padding-bottom: 10px;
+}
+
+.seis p{
+	margin-left: 95px;
 }
