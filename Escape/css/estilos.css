@@ -1,0 +1,27 @@
+
+#header-top{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	padding-left:90px;
+	padding-right: 30px;
+}
+#menu-header{
+	margin-top: 5px;
+	padding-left: 10px;
+}
+img{
+	padding-left: 100px;
+}
+nav{margin-top: 0px;}
+nav ul li{
+	display:inline-block;
+}
+nav ul li a{
+	text-decoration: none; color: #ffffff; font-size: 18px;  padding: 0px 10px; ;
+	font-family: 'Brandon Grotesque medium';
+}
+#titulo-1 p{
+	text-decoration: none; color: #ffffff; font-size: 32px;  padding:center;
+	font-family: 'Brandon Grotesque medium';
+}
+}
