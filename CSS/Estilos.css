@@ -28,7 +28,6 @@ nav ul li a{
 	width: auto;
 	height: 440px;
 	background: #ffffff;
-	overflow:auto;
 	padding-top: 60px;
 	padding-bottom: 70px;
 	font-family: 'PT Sans', sans-serif;
@@ -79,7 +78,6 @@ padding-bottom: 10px;
 
 #categorias{
 	padding-left: 270px;
-	width: 872px;
 	height: 390px;
 
 }
@@ -91,7 +89,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 	padding-left: 101px;
 }
 
@@ -103,7 +100,7 @@ padding-bottom: 10px;
 
 .dos{
 	margin-top: 0px;
-	margin-left: 115px
+	margin-left: 115px;
 }
 
 .dos h3{
@@ -111,7 +108,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 }
 
 .dos p{
@@ -129,7 +125,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 }
 
 .tres p{
@@ -147,7 +142,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 }
 
 .cuatro p{
@@ -165,7 +159,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 }
 
 .cinco p{
@@ -184,7 +177,6 @@ padding-bottom: 10px;
 	font-size: 24px;
 	color: #222222;
 	font-family: 'brandon_grotesquemedium';
-	padding-bottom: 10px;
 }
 
 .seis p{
