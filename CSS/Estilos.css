@@ -26,26 +26,28 @@ nav ul li a{
 /*Segunda parte*/
 #Web-Development{
 	width: auto;
-	height: 590px;
-	margin-top: 620px;
+	height: 440px;
 	background: #ffffff;
 	overflow:auto;
 	padding-top: 60px;
 	padding-bottom: 70px;
 	font-family: 'PT Sans', sans-serif;
 }
-#Web-Development p{
-	padding-top: 12px;
-	font-size: 12pt;
-	color: #000000;
-	font-family: 'PT Sans', sans-serif;
 
-}
 #Web-Development h2{
+	padding-left: 270px;
 color: #222222;
 padding-top:10px;
 padding-bottom: 10px;
 }
+
+#Web-Development p{
+	color: #777777;
+	padding-left: 230px;
+	padding-top: 12px;
+	font-size: 10pt;
+	font-family: 'PT Sans', sans-serif;}
+
 #Identity-Branding{
 	width: auto;
 	height: 440px;
@@ -63,11 +65,11 @@ padding-bottom: 10px;
 #Identity-Branding p{
 	padding-top: 12px;
 	font-size: 11pt;
-	color: #000000;
+	color: #777777;
 	font-family: 'PT Sans', sans-serif;
 }
-/*Tercera parte*/
-#Apartado-3{
+/*cuarta parte*/
+#Apartado-4{
 	padding: 100px 0 60px;
 	width: auto;
 	height: 590px;
@@ -95,7 +97,8 @@ padding-bottom: 10px;
 
 .uno p{
 	margin-left: 95px;
-	color: #777777
+	color: #777777;
+
 }
 
 .dos{
@@ -168,6 +171,7 @@ padding-bottom: 10px;
 .cinco p{
 	margin-left: 95px;
 	color: #777777
+
 }
 
 .seis{
@@ -186,3 +190,101 @@ padding-bottom: 10px;
 .seis p{
 	margin-left: 95px;
 }
+/*quinta parte*/
+#Parte_5{
+	background: #fafafa;
+	padding-top: 100px;
+}
+#text h1{
+	font-size: 50px;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-weight: 100;
+}
+#text h1 b{
+	font-weight: 700
+}
+#text p {
+	font-size: 17px;
+	margin-left: 26%;
+	margin-right: 25%;
+	color: #828282;
+	font-weight:
+}
+/*-----------------------------------------------------------*/
+#text2{
+	width: 650px;
+	height: 175px;
+	background: #ffffff;
+	color: #8d8d8d;
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 80px;
+}
+#text2 h2 {
+	font-size: 23px;
+	font-weight: 400;
+	padding-top: 40px;
+	padding-left: 74px;
+	padding-right: 75px;
+}
+#text2 p {
+	color: #7690c5;
+	padding-bottom: 46px;
+	padding-left: 74px;
+	font-size: 18px;
+}
+#circulo1 {
+	margin-top: 52px;
+	padding-left: 5%;
+}
+/*--------------------------------------------------------*/
+#text3{
+	width: 650px;
+	height: 175px;
+	background: #ffffff;
+	color: #8d8d8d;
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 80px;
+	margin-left: 8%;
+	margin-bottom: 121px;
+}
+#text3 h2 {
+	font-size: 23px;
+	font-weight: 400;
+	padding-top: 40px;
+	padding-left: 74px;
+	padding-right: 75px;
+}
+#text3 p {
+	color: #7690c5;
+	padding-bottom: 46px;
+	padding-left: 74px;
+	font-size: 18px;
+}
+#circulo2 {
+	margin-top: 52px;
+	padding-left: 5%;
+}
+/*----------------------------------------------------------*/
+#red {
+	background: #ffffff;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	padding-left: 10%;
+}
+#red nav ul{
+	list-style: none;
+	border: none;
+}
+#red nav ul li{
+	display: inline-block;
+	border: none;
+	border: none;
+}
+#red nav ul li a {
+	width: 152px;
+	padding-left: 20px;
+	padding-right: 20px;
+} 
