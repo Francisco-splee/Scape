@@ -2,7 +2,7 @@
 #header-top{
 	padding-top: 50px;
 	padding-bottom: 40px;
-	padding-left:90px;
+	padding-left:105px;
 	padding-right: 30px;
 }
 #menu-header{
@@ -21,7 +21,19 @@ nav ul li a{
 	font-family: 'Brandon Grotesque medium';
 }
 #titulo-1 p{
-	text-decoration: none; color: #ffffff; font-size: 32px;  padding:center;
-	font-family: 'Brandon Grotesque medium';
+	text-decoration: none; color: #ffffff; font-size: 30px;  padding:center;
+	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 100px;
 }
+#titulo-2 p{
+	text-decoration: none; color: #ffffff; font-size: 65px;  padding:center;
+	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 20px;
+
+}
+button{
+	color: #ffffff; width: 110px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+	text-align: center;
+	width: 250px;
+	height: 70px;
 }
