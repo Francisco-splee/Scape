@@ -1,29 +1,44 @@
 /*primera parte*/
 #header-top{
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 40px;
-	padding-left:190px;
+	padding-left:105px;
 	padding-right: 30px;
-
 }
 #menu-header{
-	margin-top: 10px
-	padding-left: 0px;
-
+	margin-top: 5px;
+	padding-left: 10px;
 }
-nav{margin-top: 10px;}
-nav ul{
-	list-style:none; padding-left:0;
-	padding-right: 0px;
+#logo img{
+	padding-left: 100px;
 }
+nav{margin-top: 0px;}
 nav ul li{
 	display:inline-block;
 }
 nav ul li a{
-	text-decoration: none; color: #ffffff; font-size: 15px;  padding: 0px 15px; ;
-	font-family: 'Brandon Grotesque';
-	}
-/*Segunda parte*/
+	text-decoration: none; color: #ffffff; font-size: 18px;  padding: 0px 10px; ;
+	font-family: 'Brandon Grotesque medium';
+}
+#titulo-1 p{
+	text-decoration: none; color: #ffffff; font-size: 30px;  padding:center;
+	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 100px;
+}
+#titulo-2 p{
+	text-decoration: none; color: #ffffff; font-size: 65px;  padding:center;
+	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 20px;
+
+}
+button{
+	color: #ffffff; width: 110px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+	text-align: center;
+	width: 250px;
+	height: 70px;
+}
+
+/*------------------------------Segunda parte-------------------------------------*/
 #Web-Development{
 	width: auto;
 	height: 440px;
@@ -42,7 +57,7 @@ padding-bottom: 10px;
 
 #Web-Development p{
 	color: #777777;
-	padding-left: 230px;
+	padding-left: 220px;
 	padding-top: 12px;
 	font-size: 10pt;
 	font-family: 'PT Sans', sans-serif;}
@@ -97,7 +112,6 @@ padding-bottom: 10px;
 }
 
 .dos{
-	margin-top: 0px;
 	margin-left: 110px;
 }
 
