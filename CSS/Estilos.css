@@ -1,407 +1,473 @@
-/*primera parte*/
-#header-top{
-	padding-top: 50px;
-	padding-bottom: 40px;
-	padding-left:105px;
-	padding-right: 30px;
-}
-#menu-header{
-	margin-top: 5px;
-	padding-left: 10px;
-}
-#logo img{
-	padding-left: 100px;
-}
-nav{margin-top: 0px;}
-nav ul li{
-	display:inline-block;
-}
-nav ul li a{
-	text-decoration: none; color: #ffffff; font-size: 18px;  padding: 0px 10px; ;
-	font-family: 'Brandon Grotesque medium';
-}
-#titulo-1 p{
-	text-decoration: none; color: #ffffff; font-size: 30px;  padding:center;
-	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 100px;
-}
-#titulo-2 p{
-	text-decoration: none; color: #ffffff; font-size: 65px;  padding:center;
-	font-family: 'Brandon Grotesque medium'; text-align: center; padding-top: 20px;
-
-}
-button{
-	color: #ffffff; width: 110px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-	text-align: center;
-	width: 250px;
-	height: 70px;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/*------------------------------Segunda parte-------------------------------------*/
-#Web-Development{
-	width: auto;
-	height: 440px;
-	background: #ffffff;
-	padding-top: 60px;
-	padding-bottom: 70px;
-	font-family: 'PT Sans', sans-serif;
+.header{
+    width: 100%;
+    background-image: url(../img/escape-background.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 620px;
 }
 
-#Web-Development h2{
-	padding-left: 270px;
-color: #222222;
-padding-top:10px;
-padding-bottom: 10px;
+.container{
+  width: 75%;
+  margin: auto;
 }
 
-#Web-Development p{
-	color: #777777;
-	padding-left: 220px;
-	padding-top: 12px;
-	font-size: 10pt;
-	font-family: 'PT Sans', sans-serif;}
-
-#Identity-Branding{
-	width: auto;
-	height: 440px;
-	background: #fafafa;
-	overflow:auto;
-	padding-top: 60px;
-	padding-bottom: 100px;
-	font-family: 'PT Sans', sans-serif;
-}
-#Identity-Branding h2{
-color: #222222;
-padding-top:10px;
-padding-bottom: 10px;
-}
-#Identity-Branding p{
-	padding-top: 12px;
-	font-size: 11pt;
-	color: #777777;
-	font-family: 'PT Sans', sans-serif;
-}
-/*-----------------------cuarta parte---------------------*/
-#Apartado-4{
-	padding: 100px 0 60px;
-	width: 100%;
-	height: 590px;
-	background: #ffffff;
-
+.navbar-list{
+  padding-top: 50px;
+  padding-bottom: 8%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-#categorias{
-	padding-left: 250px;
-
+.escape-logo{
+  background-image: url(../img/paper-plane.gif);
+  background-size: 100%;
+  width: 35px;
+  height: 30px;
 }
 
-.uno{
-	float: left;
-}
-.uno h3{
-	font-size: 22px;
-	color: #222222;
-	padding-left: 101px;
+.escape-logo > h1{
+  color: white;
+  font-family: monospace;
+  padding-left: 43px;
+  font-size: 28px;
 }
 
-.uno p{
-	margin-left: 95px;
-	color: #777777;
-
+.menu{
+    padding-left: 60px;
 }
 
-.dos{
-	margin-left: 110px;
+.menu > ul{
+    display: flex;
+    justify-content: space-between;
 }
 
-.dos h3{
-	padding-left: 101px;
-	font-size: 22px;
-	color: #222222;
+.menu > ul > li{
+    float: left;
+    list-style-type: none;
 }
 
-.dos p{
-	margin-left: 95px;
+.menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 16.5px;
+    transition: .65s;
 }
 
-.tres{
-	margin-top: 0px;
-	margin-left: 0px;
-	float: left;
+.menu > ul > li > a:hover{
+    color: slategrey;
+}
+/*---------------------------------------------------------------------------*/
+.slider{
+    width: 100%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
 }
 
-.tres h3{
-	padding-left: 101px;
-	font-size: 22px;
-	color: #222222;
+@import url(//db.onlinewebfonts.com/c/af1f9cf6d51df55b85e1b496776585c4?family=Brandon+Grotesque+Regular);
+
+
+.slider-items{
+    color: white;
+    font-family: monospace;
+    text-align: center;
 }
 
-.tres p{
-	margin-left: 95px;
-	color: #777777;
+.slider-items > p{
+    font-size: 28px;
+    opacity: 1.0;
 }
 
-.cuatro{
-	margin-top: 0px;
-	margin-left: 110px
+.slider-items > h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 7%;
 }
 
-.cuatro h3{
-	padding-left: 101px;
-	font-size: 22px;
-	color: #222222;
+.learn_more-button{
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: white solid 1px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
 }
 
-.cuatro p{
-	margin-left: 95px;
+.animation{
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+    opacity: 0.2;
 }
 
-.cinco{
-	margin-top: 0px;
-	margin-left: 0px;
-	float: left;
-}
-
-.cinco h3{
-	padding-left: 101px;
-	font-size: 22px;
-	color: #222222;
-}
-
-.cinco p{
-	margin-left: 95px;
-	color: #777777
+.learn_more-button:hover .animation{
+    height: 100%;
+    background-color: dodgerblue;
 
 }
 
-.seis{
-	margin-top: 0px;
-	margin-left: 110px
+.services{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.seis h3{
-	padding-left: 101px;
-	font-size: 22px;
-	color: #222222;
+.service-item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
-.seis p{
-	margin-left: 95px;
+.service-item_img{
+    height: 220px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
 }
-/*-----------------------Quinta parte-------------------*/
-#Parte_5{
-	background: #fafafa;
-	padding-top: 100px;
+
+.service-item_text{
+    font-family: grotes;
 }
-#text h1{
-	font-size: 50px;
-	padding-left: 25%;
-	padding-right: 25%;
-	font-weight: 100;
-}
-#text h1 b{
-	font-weight: 700
-}
-#text p {
-	font-size: 17px;
-	margin-left: 26%;
-	margin-right: 25%;
-	color: #828282;
-	font-weight:
-}
-/*-----------------------------------------------------------*/
-#text2{
-	width: 650px;
-	height: 175px;
-	background: #ffffff;
-	color: #8d8d8d;
-	text-align: justify;
-	vertical-align: middle;
-	margin-top: 80px;
-}
-#text2 h2 {
-	font-size: 23px;
-	font-weight: 400;
-	padding-top: 40px;
-	padding-left: 74px;
-	padding-right: 75px;
-}
-#text2 p {
-	color: #7690c5;
-	padding-bottom: 46px;
-	padding-left: 74px;
-	font-size: 18px;
-}
-#circulo1 {
-	margin-top: 52px;
-	padding-left: 5%;
+
+.service-item_text > h2{
+    font-size: 60px;
+    padding-bottom: 1%;
+    font-weight: lighter;
 }
 /*--------------------------------------------------------*/
-#text3{
-	width: 650px;
-	height: 175px;
-	background: #ffffff;
-	color: #8d8d8d;
-	text-align: justify;
-	vertical-align: middle;
-	margin-top: 80px;
-	margin-left: 8%;
-	margin-bottom: 121px;
-}
-#text3 h2 {
-	font-size: 23px;
-	font-weight: 400;
-	padding-top: 40px;
-	padding-left: 74px;
-	padding-right: 75px;
-}
-#text3 p {
-	color: #7690c5;
-	padding-bottom: 46px;
-	padding-left: 74px;
-	font-size: 18px;
-}
-#circulo2 {
-	margin-top: 52px;
-	padding-left: 5%;
-}
-/*----------------------------------------------------------*/
-#red {
-	background: #ffffff;
-	padding-bottom: 60px;
-	padding-top: 60px;
-	padding-left: 10%;
-}
-#red nav ul{
-	list-style: none;
-	border: none;
-}
-#red nav ul li{
-	display: inline-block;
-	border: none;
-	border: none;
-}
-#red nav ul li a {
-	width: 152px;
-	padding-left: 20px;
-	padding-right: 20px;
-} 
-
-/*----------------------Sexta parte---------------------------*/
-#Parte-6{
-	padding: 100px 0 60px;
-	width: 100%;
-	height: 800px;
-	background: #111111;
-
-}
-.Amazing-team h1{
-	padding-left: 537px;
-	color: #ffffff;
-
+.identity_branding{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: #fafafa;
 }
 
-.Amazing-team p{
-	color: #626262;
-	padding-left: 517px;
+.identity_branding-item_img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
-.circulo-1{
-	padding-left: 303px;
-	float: left;
+.identity_branding-item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: grotes;
 }
 
-.circulo-2{
-	padding-left: 46px;
-	float: left;
+.identity_branding-item_text > h2{
+    font-weight: lighter;
+    font-size: 60px;
+}
+/*--------------------------------------------*/
+.skills{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.circulo-3{
-	padding-left: 46px;
-	float: left;
+.skill-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
 }
 
-/*------------------------------Septima parte-----------------------------*/
-#Parte_7 {
-	background: #7690c5;
-	color: #ffffff;
-	padding-top: 100px;
+.skill-item{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 5%;
 }
-#left {
-	padding-left: 11%;
+
+.skill-item_img{
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-#say h1{
-	font-size: 45px;
-	font-weight: 100;
-	padding-bottom: 15px;
-	margin-left: 8%;
-	margin-left: 5%;
+
+.skill-item_text{
+    font-family: grotes;
 }
-#say h1 b{
-	font-weight: 500;
+/*---------------------------------------*/
+.clients{
+    width: 100%;
+    background-color: #fafafa;
+    padding-top: 8%;
 }
-#dont{
-	margin-left: 8%;
-	margin-left:5%;
+
+.client-items{
+    width: 100%;
+    font-family: grotes;
 }
-#contact ul li{
-	list-style: none;
-	padding-bottom: 40px;
+
+.client-items > h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
 }
-#mitad1 {
-	float: left;
-	padding-left: 65px;
-	padding-top: 50px;
+
+.client-items > p{
+    font-size: 21px;
+    color: #777777;
+    text-align: center;
+    padding-bottom: 5%;
 }
-#mitad {
-	float: left;
-	padding-top: 50px;
+
+.client-review{
+    display: flex;
+    justify-content: space-between;
 }
-.cel {
-	padding-right: 15px;
+
+.client-img_top{
+  background-image: url(../img/circulo.jpg);
+  width: 220px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  background-position: center;
 }
-.plus {
-	padding-right: 15px;
+
+.client-img{
+    background-image: url(../img/circulo.jpg);
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center;
 }
-.twitter {
-	padding-right: 15px;
+
+.client-txt{
+    width: 50%;
+    text-align: center;
+    color: dimgray;
+    font-size: 19px;
+    background-color: white;
+    border: lightgray solid 1px;
+    height: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+    margin-right: 10%;
 }
-.mail1 {
-	padding-right: 15px;
+
+.client-review{
+    padding-bottom: 5%;
 }
-.face {
-	padding-right: 15px;
+/*-------------------------------------------------------------*/
+.logos{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.pinterest {
-	padding-right: 15px;
+
+.logos-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
 }
-/*--------------------------------------------------------*/
-.name {
-	width: 460px;
-	height: 50px;
-	padding-left: 20px;
+
+.team{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: grotes;
+    padding-top: 7%;
 }
-#name {
-	padding-bottom: 25px;
+
+.team-items > h2{
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
 }
-.mail {
-	width: 460px;
-	height: 50px;
-	padding-left: 20px;
+
+.team-items > p{
+    font-size: 22px;
+    text-align: center;
+    color: #777777;
+    padding-bottom: 5%;
 }
-#mail {
-	padding-bottom: 25px;
+
+.team-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    cursor: pointer;
 }
-.message {
-	width: 460px;
-	height: 210px;
-	padding-left: 20px;
-	padding-bottom: 160px;
+
+.circle-fwal{
+    width: 235px;
+    height: 240px;
+    border: white solid 5px;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 3%;
+    background-image: url(../circulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-/*--------------------------------------------------------------*/
-#copy {
-	padding-top: 130px;
-	padding-bottom: 30px;
-	text-align: center;
-} 
+
+.circle-anonymous{
+  width: 235px;
+  height: 240px;
+  border: white solid 5px;
+  border-radius: 100%;
+  margin: auto;
+  margin-bottom: 3%;
+  background-image: url(../circulo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.circle-fsociety{
+  width: 235px;
+  height: 240px;
+  border: white solid 5px;
+  border-radius: 100%;
+  margin: auto;
+  margin-bottom: 3%;
+  background-image: url(../circulo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon{
+    float: left;
+    margin-left: 30%;
+}
+
+.teamates{
+    padding-bottom: 15%;
+}
+
+.teamates:hover{
+  color: dodgerblue;
+}
+
+.teamates > h2{
+    text-align: center;
+    font-size: 18px;
+    transition: 0.45s;
+}
+
+.teamates h2:hover{
+  font-size: 20px;
+}
+
+.teamates > p{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 2%;
+    transition: 0.35s;
+}
+
+h3{
+    font-size: 20px;
+    color: #ebebeb;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 10%;
+}
+
+blockquote{
+    font-size: 20px;
+    color: #777777;
+    text-align: center;
+}
+/*-------------------------------*/
+footer{
+    color: #7690c5;
+    font-size: 16px;
+}
+
+.footer{
+    background-color:#7690c5;
+    padding-top: 5%;
+    border-bottom: #87a0d2 solid 1px;
+}
+
+.footer-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: grotes;
+    cursor: pointer;
+}
+
+.footer-item > h2{
+    font-weight: lighter;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 5%;
+}
+
+.footer-item > p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item{
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 35px;
+}
+
+.contact-item{
+    color: white;
+    font-family: grotes;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+input{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 5%;
+}
+
+textarea{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 5%;
+}
+/*------------------------------------*/
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: monospace;
+    background-color:#7690c5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
