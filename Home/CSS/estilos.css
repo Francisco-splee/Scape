@@ -1,0 +1,78 @@
+*{ margin: 0% 0%; }  #Fondo{
+	background-image: url(../IMG/Fondo.jpg);
+	background-repeat: no-repeat;
+	width:100%;
+	height:666px; 
+}
+#fondo-1{
+	background-image: url(../IMG/fondo-1.jpg);
+	background-repeat: no-repeat;
+	width:100%;
+	height:666px; 
+}
+#fondo-1 h1{
+	color: #ffffff; 
+	font-size: 25px; font-family: 'OpenSans';
+    padding-left: 540px;
+   padding-top: 170px;
+}
+#fondo-1 h2{
+	color: #ffffff; font-size: 50px; font-family: 'OpenSans';
+text-align: center;
+padding-top: 1px;
+}
+#xd button{
+		color: #ffffff; width: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+	text-align: center;
+	width: 190px;
+	height: 50px;
+	border-radius: 15px;
+}
+#part6
+{
+	background: #ffffff;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding: 20px 165px 185px;
+	text-align: center;
+	margin: 200px;
+	display: block;
+}
+#part6 h2{
+	font-size: 35px;
+	color: #ED4F2E;
+	line-height: 100%;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+#part6{
+	background: #ffffff;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#part6 nav{
+	margin-top: 35px;
+}
+#part6 nav ul
+{
+	list-style: none; padding: 0px 20px;
+}
+#works nav ul li
+{
+	display: inline-block;
+	border-right: 2px solid #626262;
+	list-style: none;
+	font-size: 15px;
+	padding: 10px;
+}
+body{
+	background: #ebebeb;
+	vertical-align: baseline;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+}
